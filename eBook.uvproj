@@ -351,7 +351,7 @@
               <MiscControls></MiscControls>
               <Define>STM32L053xx</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS</IncludePath>
+              <IncludePath>.\CMSIS;.\Sources;.\Drivers</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -412,6 +412,11 @@
               <FileType>1</FileType>
               <FilePath>.\Sources\main.c</FilePath>
             </File>
+            <File>
+              <FileName>gde021a1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\gde021a1.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -421,6 +426,11 @@
               <FileName>spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Drivers\spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>epd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\epd.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -832,6 +842,11 @@
               <FileType>1</FileType>
               <FilePath>.\Sources\main.c</FilePath>
             </File>
+            <File>
+              <FileName>gde021a1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\gde021a1.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -841,6 +856,11 @@
               <FileName>spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Drivers\spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>epd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\epd.c</FilePath>
             </File>
           </Files>
         </Group>
